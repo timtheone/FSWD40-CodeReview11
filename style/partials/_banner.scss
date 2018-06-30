@@ -1,0 +1,38 @@
+.banner {
+    min-height:100%;
+    position:relative;
+}
+
+@media (min-width: 1369px) {
+    .banner {
+        background-image: url('../img/banner-large.jpg');
+        height: 1080px;
+    }
+}
+
+@media (max-width: 1368px) and (min-width: 768px) {
+    .banner {
+        background-image: url('../img/banner-common1.jpg');
+        height: 768px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 401px) {
+    .banner {
+        background-image: url('../img/banner-small.jpg');
+        height: 911px;
+    }
+}
+
+@media (max-width: 400px) {
+    .banner {
+        background-image: url('../img/banner-mobile.jpg');
+        height: 1300px;
+    }
+}
+
+
+.show-text {
+    padding-bottom: 40px;
+    padding-left: 30px;
+}

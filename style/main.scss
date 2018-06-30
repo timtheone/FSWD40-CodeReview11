@@ -1,0 +1,88 @@
+$font-stack: 'Kanit', sans-serif;
+$red-orange: #F64734;
+$eucalyptus: #35D8A6;
+$beige:      #FFFBF4;
+
+
+@import url('https://fonts.googleapis.com/css?family=Kanit:200,400');
+@import 'partials/banner';
+@import 'partials/car_page';
+@import 'partials/spinner';
+@import 'partials/buttons';
+@import 'partials/form';
+@import 'partials/car_map';
+@import 'partials/navbar';
+@import 'partials/footer';
+
+body {
+    font-family: $font-stack;
+    height: 100%;
+}
+
+
+.banner-office {
+background: linear-gradient( 129deg,rgb(172, 52, 247), rgb(0, 255, 255));
+padding: 30px;
+height: 300px;
+position: relative;
+img {
+    position: absolute;
+    left: 10%;
+    top: -39%;
+    @media (max-width: 1600px) and (min-width: 1274px) {
+        width: 43%;
+        top: -30%;
+    }
+    @media (max-width: 1273px) and (min-width: 992px){
+        width: 54%;
+        top: 5%;
+        left: 1%
+    }
+    @media (max-width: 991px) and (min-width: 727px) {
+        left: 4%;
+        width: 44%;
+        top: 6%;
+    }
+    @media (max-width: 721px) and (min-width: 481px) {
+        left: 4%;
+        width: 44%;
+        top: 29%;
+    }
+    @media (max-width: 480px) {
+        width: 55%;
+        top: 40%;
+        left: 39%;
+    }
+}
+.blend-text {
+    text-transform: uppercase;
+    position: absolute;
+    left: 63%;
+    top: 37%;
+    font-size: 4.5rem!important;
+    color: white;
+    @media (max-width: 1350px) and (min-width: 922px) {
+        font-size: 2.5rem!important;
+        top: 53%;
+    }
+    @media (max-width: 921px) and (min-width: 621px){
+        font-size: 1.8rem!important;
+        top: 53%;
+    }
+    @media (max-width: 620px) and (min-width: 481px) {
+        font-size: 1.5rem!important;
+        top: 53%;
+    }
+    @media (max-width: 480px) {
+        font-size: 1.8rem!important;
+        left: 9%;
+        top: 35%;
+    }
+}
+}
+
+.main-home {
+    min-height:100%;
+    position:relative;
+    padding: 0px;
+}

@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:200,400");
+.banner {
+  min-height: 100%;
+  position: relative; }
+
+@media (min-width: 1369px) {
+  .banner {
+    background-image: url("../img/banner-large.jpg");
+    height: 1080px; } }
+@media (max-width: 1368px) and (min-width: 768px) {
+  .banner {
+    background-image: url("../img/banner-common1.jpg");
+    height: 768px; } }
+@media (max-width: 767px) and (min-width: 401px) {
+  .banner {
+    background-image: url("../img/banner-small.jpg");
+    height: 911px; } }
+@media (max-width: 400px) {
+  .banner {
+    background-image: url("../img/banner-mobile.jpg");
+    height: 1300px; } }
+.show-text {
+  padding-bottom: 40px;
+  padding-left: 30px; }
+
+.car-img-div {
+  margin-bottom: 170px !important;
+  position: relative;
+  padding-bottom: 60px !important; }
+  @media (max-width: 1499px) {
+    .car-img-div {
+      margin-bottom: 209px !important; } }
+  .car-img-div img {
+    width: 100%; }
+  .car-img-div .car-text {
+    position: absolute;
+    right: 40px;
+    left: 40px;
+    bottom: -133px; }
+    @media (max-width: 1499px) and (min-width: 993px) {
+      .car-img-div .car-text {
+        bottom: -223px; } }
+    @media (max-width: 992px) and (min-width: 456px) {
+      .car-img-div .car-text {
+        bottom: -223px; } }
+    @media (max-width: 455px) {
+      .car-img-div .car-text {
+        bottom: -235px; } }
+
+.custom-wrapper {
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 992px) {
+    .custom-wrapper .custom-card {
+      margin-left: 3.333333% !important;
+      flex: 1 0 25% !important;
+      max-width: 30%; } }
+
+@media (min-width: 1500px) {
+  .custom-wrapper {
+    max-width: 1387px; } }
+@media (max-width: 1498px) and (min-width: 1237px) {
+  .custom-wrapper {
+    max-width: 1160px; } }
+@media (max-width: 1236px) and (min-width: 992px) {
+  .custom-wrapper {
+    max-width: 966px; } }
+@media (max-width: 991px) {
+  .custom-wrapper {
+    max-width: 845px; } }
+.banner-home {
+  background: linear-gradient(129deg, #f2b181, rgba(123, 54, 233, 0.856));
+  padding: 30px;
+  height: 300px;
+  position: relative; }
+  .banner-home img {
+    position: absolute;
+    left: 10%; }
+    @media (max-width: 1200px) and (min-width: 922px) {
+      .banner-home img {
+        width: 40%;
+        top: 38%; } }
+    @media (max-width: 921px) and (min-width: 621px) {
+      .banner-home img {
+        width: 40%;
+        top: 55%; } }
+    @media (max-width: 620px) and (min-width: 481px) {
+      .banner-home img {
+        width: 40%;
+        top: 66%; } }
+    @media (max-width: 480px) {
+      .banner-home img {
+        width: 48%;
+        top: 72%; } }
+  .banner-home .blend-text {
+    text-transform: uppercase;
+    position: absolute;
+    left: 46%;
+    top: 37%;
+    font-size: 4.5rem !important;
+    color: white; }
+    @media (max-width: 1350px) and (min-width: 922px) {
+      .banner-home .blend-text {
+        font-size: 2.5rem !important;
+        left: 55%;
+        top: 53%; } }
+    @media (max-width: 921px) and (min-width: 621px) {
+      .banner-home .blend-text {
+        font-size: 1.8rem !important;
+        left: 50%;
+        top: 53%; } }
+    @media (max-width: 620px) and (min-width: 481px) {
+      .banner-home .blend-text {
+        font-size: 1.5rem !important;
+        left: 50%;
+        top: 53%; } }
+    @media (max-width: 480px) {
+      .banner-home .blend-text {
+        font-size: 1.8rem !important;
+        left: 9%;
+        top: 35%; } }
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px; }
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin-left: 38% !important;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite; }
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+#sign-up-button, #sign-in-button {
+  color: #35D8A6;
+  transition-duration: 0.3s; }
+  #sign-up-button:hover, #sign-in-button:hover {
+    transition-duration: 0.3s;
+    color: white; }
+
+.buttonDepth, .purple-btn {
+  width: 200px;
+  font-size: 16px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  background: #f64734;
+  padding: 15px 20px;
+  transition: all .5s ease;
+  border-radius: 3px;
+  cursor: pointer; }
+  .buttonDepth a, .purple-btn a {
+    text-decoration: none;
+    color: #FFF; }
+
+.is-active {
+  box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.4);
+  transform: translateY(10px); }
+
+a.landing {
+  position: relative;
+  text-decoration: none; }
+  a.landing:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F64734;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+  a.landing:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+
+.purple-btn {
+  font-weight: 200;
+  background: #5B2D8D;
+  transition: all .3s ease; }
+  .purple-btn:hover {
+    text-decoration: none;
+    color: #FFF; }
+
+.login {
+  background: linear-gradient(#35D8A6, #184fed);
+  padding: 30px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 19px 47px 3px #363636; }
+
+#map {
+  height: 65%;
+  top: -12.7%;
+  padding-bottom: 60px; }
+
+/* Optional: Makes the sample page fill the window. */
+html, body, .container-fluid {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#fffbf4, #cc9941); }
+
+.main-home {
+  min-height: 100%;
+  position: relative;
+  padding: 0px; }
+
+.navbar-beige {
+  background-color: #FFFBF4; }
+
+.right-navbar-items {
+  margin-right: 25%; }
+
+@media (min-width: 992px) {
+  .left-navbar-items {
+    margin-left: 72%; } }
+.footer-distributed {
+  background-color: #353535;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: -132px;
+  text-align: left;
+  padding: 45px 50px;
+  position: absolute;
+  bottom: 0;
+  height: 143px; }
+
+.footer-distributed .footer-left p {
+  color: #cfcfcf;
+  font-size: 14px;
+  margin: 0; }
+
+/* Footer links */
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #cfcfcf;
+  margin: 0 0 10px;
+  padding: 0; }
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: "Kanit", sans-serif;
+  height: 100%; }
+
+.banner-office {
+  background: linear-gradient(129deg, #ac34f7, cyan);
+  padding: 30px;
+  height: 300px;
+  position: relative; }
+  .banner-office img {
+    position: absolute;
+    left: 10%;
+    top: -39%; }
+    @media (max-width: 1600px) and (min-width: 1274px) {
+      .banner-office img {
+        width: 43%;
+        top: -30%; } }
+    @media (max-width: 1273px) and (min-width: 992px) {
+      .banner-office img {
+        width: 54%;
+        top: 5%;
+        left: 1%; } }
+    @media (max-width: 991px) and (min-width: 727px) {
+      .banner-office img {
+        left: 4%;
+        width: 44%;
+        top: 6%; } }
+    @media (max-width: 721px) and (min-width: 481px) {
+      .banner-office img {
+        left: 4%;
+        width: 44%;
+        top: 29%; } }
+    @media (max-width: 480px) {
+      .banner-office img {
+        width: 55%;
+        top: 40%;
+        left: 39%; } }
+  .banner-office .blend-text {
+    text-transform: uppercase;
+    position: absolute;
+    left: 63%;
+    top: 37%;
+    font-size: 4.5rem !important;
+    color: white; }
+    @media (max-width: 1350px) and (min-width: 922px) {
+      .banner-office .blend-text {
+        font-size: 2.5rem !important;
+        top: 53%; } }
+    @media (max-width: 921px) and (min-width: 621px) {
+      .banner-office .blend-text {
+        font-size: 1.8rem !important;
+        top: 53%; } }
+    @media (max-width: 620px) and (min-width: 481px) {
+      .banner-office .blend-text {
+        font-size: 1.5rem !important;
+        top: 53%; } }
+    @media (max-width: 480px) {
+      .banner-office .blend-text {
+        font-size: 1.8rem !important;
+        left: 9%;
+        top: 35%; } }
+
+.main-home {
+  min-height: 100%;
+  position: relative;
+  padding: 0px; }
+
+/*# sourceMappingURL=main.css.map */

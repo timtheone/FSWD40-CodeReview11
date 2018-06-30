@@ -1,0 +1,123 @@
+.car-img-div {
+    margin-bottom: 170px!important;
+    position: relative;
+    padding-bottom: 60px!important;
+    @media (max-width: 1499px) {
+        margin-bottom: 209px!important;
+    }
+    img {
+        width: 100%;
+    }
+    .car-text {
+        position: absolute;
+        right: 40px;
+        left: 40px;
+        bottom: -133px;
+        @media (max-width: 1499px) and (min-width: 993px) {
+            bottom: -223px;
+        }
+        @media (max-width: 992px) and (min-width: 456px) {
+            bottom: -223px;
+        }
+        @media (max-width: 455px) {
+            bottom: -235px;
+        }
+    }
+
+}
+
+.custom-wrapper {
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: 992px) {
+        .custom-card{
+            margin-left: 3.333333%!important;
+            flex: 1 0 25%!important;
+            max-width: 30%;
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .custom-wrapper {
+        max-width: 1387px;
+    }
+}
+
+@media (max-width: 1498px) and (min-width: 1237px) {
+    .custom-wrapper {
+        max-width: 1160px;
+    }
+}
+
+@media (max-width: 1236px) and (min-width: 992px){
+    .custom-wrapper {
+        max-width: 966px;
+    }
+}
+
+@media (max-width: 991px) {
+    .custom-wrapper {
+        max-width: 845px;
+    }
+}
+
+
+.banner-home {
+    background: linear-gradient( 129deg,rgba(242, 177, 129,1), rgba(123, 54, 233, 0.856));
+    padding: 30px;
+    height: 300px;
+    position: relative;
+    img {
+        position: absolute;
+        left: 10%;
+        @media (max-width: 1200px) and (min-width: 922px) {
+            width: 40%;
+            top: 38%;
+        }
+        @media (max-width: 921px) and (min-width: 621px){
+            width: 40%;
+            top: 55%;
+        }
+        @media (max-width: 620px) and (min-width: 481px) {
+            width: 40%;
+            top: 66%;
+        }
+        @media (max-width: 480px) {
+            width: 48%;
+            top: 72%;
+        }
+    }
+    .blend-text {
+        text-transform: uppercase;
+        position: absolute;
+        left: 46%;
+        top: 37%;
+        font-size: 4.5rem!important;
+        color: white;
+        @media (max-width: 1350px) and (min-width: 922px) {
+            font-size: 2.5rem!important;
+            left: 55%;
+            top: 53%;
+        }
+        @media (max-width: 921px) and (min-width: 621px){
+            font-size: 1.8rem!important;
+            left: 50%;
+            top: 53%;
+        }
+        @media (max-width: 620px) and (min-width: 481px) {
+            font-size: 1.5rem!important;
+            left: 50%;
+            top: 53%;
+        }
+        @media (max-width: 480px) {
+            font-size: 1.8rem!important;
+            left: 9%;
+            top: 35%;
+        }
+    }
+}

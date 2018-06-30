@@ -1,0 +1,13 @@
+.navbar-beige {
+    background-color: $beige;
+}
+
+.right-navbar-items {
+    margin-right: 25%;
+}
+
+@media (min-width: 992px) {
+    .left-navbar-items {
+        margin-left: 72%;
+    }
+}
