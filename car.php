@@ -22,7 +22,24 @@
     mysqli_free_result($result);
     mysqli_close($conn);
 ?>
-
+<style>
+    html,body,.container-fluid  {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(#fffbf4, #cc9941);   
+    }
+    .main-home {
+        min-height:100%;
+        position:relative;
+        padding: 0px;
+    }
+    #map {
+        height: 65%;
+        top: -12.7%;
+        padding-bottom: 60px;
+    }
+</style>
 <div class="container-fluid main-home">
     <div class="container" style="padding: 30px 0 255px 0;">
         <div class="row">
