@@ -72,7 +72,7 @@
 ?>
 
 <div class="container-fluid banner-office">
-    <img src="img/office1.png" alt="">
+    <img src="img/report_test.png" alt="">
     <h1 class="blend-text">Report</h1>
 </div>
 <div class="container-fluid">
